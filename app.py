@@ -1,10 +1,10 @@
+import os
+os.system('pip install langchain')
+
 import streamlit as st
 from langchain.llms import HuggingFaceHub
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
-
-import os
-os.system('pip install langchain')
 
 st.title("News Analysis Chatbot")
 
